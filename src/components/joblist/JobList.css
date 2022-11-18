@@ -16,7 +16,7 @@ li {
   position: absolute;
   top: 16px;
   right: 13px;
-  font-family: 'Proxima Nova Lt';
+  font-family: 'Proxima Nova Lt', sans-serif;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.206667px;
@@ -47,7 +47,7 @@ li {
 }
 
 .title {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.5625px;
@@ -66,11 +66,11 @@ li {
 
 .department,
 .location {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-size: 16px;
   line-height: 25px;
   letter-spacing: 0.23619px;
-  color: #878D9D;
+  color: #878d9d;
 }
 
 .department {
@@ -108,7 +108,7 @@ li {
   }
 
   .title {
-    font-family: 'Proxima Nova Bl';
+    font-family: 'Proxima Nova Bl', sans-serif;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: -0.625px;
@@ -123,7 +123,6 @@ li {
     color:#384564;
     border-radius: 13px;
     padding: 10px;
-    cursor: pointer
   }
 
   .location {
@@ -134,7 +133,7 @@ li {
     position: absolute;
     right: 16px;
     top: 122px;
-    font-family: 'Proxima Nova Lt';
+    font-family: 'Proxima Nova Lt', sans-serif;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 0.23619px;

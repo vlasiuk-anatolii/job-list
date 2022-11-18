@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Proxima Nova Lt';
+  font-family: 'Proxima Nova Lt', sans-serif;
   src: url('/public/fonts/ProximaNova-Light.eot');
   src: local('Proxima Nova Light Italic'), local('ProximaNova-LightIt'),
     url('/public/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
@@ -14,9 +14,9 @@
 }
 
 @font-face {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   src: url('/public/fonts/ProximaNova-Regular.eot');
-  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+  src: local(Proxima Nova Regular), local('ProximaNova-Regular'),
     url('/public/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
     url('/public/fonts/ProximaNova-Regular.woff') format('woff'),
     url('/public/fonts/ProximaNova-Regular.ttf') format('truetype');
@@ -26,7 +26,7 @@
 
 
 @font-face {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   src: url('/public/fonts/ProximaNova-Bold.eot');
   src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
     url('/public/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
@@ -37,7 +37,7 @@
 }
 
 @font-face {
-  font-family: 'Proxima Nova BlLt';
+  font-family: 'Proxima Nova BlLt', sans-serif;
   src: url('/public/fonts/ProximaNova-Semibold.eot');
   src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
     url('/public/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),

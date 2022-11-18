@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Stars from '../../components/stars/Stars'
 import { Pagination } from '../../components/pagination/Pagination'
 import { getAllInfo } from '../../api/api'
@@ -54,7 +54,7 @@ export default function JobList (): JSX.Element {
               <div className="stars flex">
                 <Stars />
               </div>
-              <img className="flag-mark" src="/images/flag.svg" alt="flag" />
+              <img className="flag-mark" src="./images/flag.svg" alt="flag" />
               <span className="when-posted">{`Posted ${new Date(item.createdAt).getDay()} days ago`}</span>
               <p
                 className="title"
@@ -64,7 +64,7 @@ export default function JobList (): JSX.Element {
               >{item.title}</p>
               <p className="department">{`Department name • ${item.name}`}</p>
               <div className="flex">
-                <img className="location-mark" src="/images/location.svg" alt="location" />
+                <img className="location-mark" src="./images/location.svg" alt="location" />
                   <p className="location">{item.address}</p>
               </div>
             </div>

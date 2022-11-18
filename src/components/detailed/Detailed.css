@@ -9,12 +9,12 @@
 .title-detailed,
 .title-images,
 .title-addinfo {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 28px;
   line-height: 34px;
   letter-spacing: 0.413333px;
   margin-bottom: 12px;
-  color: #3A4562;
+  color: #3a4562;
 }
 
 .title-addinfo,
@@ -32,7 +32,7 @@
 
 .save-text,
 .share-text {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -46,7 +46,7 @@
 }
 
 .name-job {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.75px;
@@ -56,7 +56,7 @@
 }
 
 .brutto-text {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.5625px;
@@ -68,7 +68,7 @@
   position: relative;
   top: 10px;
   display: inline;
-  font-family: 'Proxima Nova Lt';
+  font-family: 'Proxima Nova Lt', sans-serif;
   font-size: 13px;
   line-height: 25px;
   letter-spacing: 0.191905px;
@@ -76,11 +76,11 @@
 }
 
 .salary {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.625px;
-  color: #3A4562;
+  color: #3a4562;
 }
 
 .box-salary {
@@ -93,7 +93,7 @@
 .text-responsopilities,
 .text-benefits, 
 .list-benefits {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -113,7 +113,7 @@
 
 .subtitle-responsopilities,
 .subtitle-benefits {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: -0.625px;
@@ -139,7 +139,7 @@
   margin: 0 auto 135px;
   width: 127px;
   height: 52px;
-  font-family: 'Proxima Nova BlLt';
+  font-family: 'Proxima Nova BlLt', sans-serif;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
@@ -162,7 +162,7 @@
 }
 
 .subtitle-addinfo {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -173,7 +173,7 @@
 }
 
 .button-emptype {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 16px;
   line-height: 16px;
   text-align: center;
@@ -194,7 +194,7 @@
 }
 
 .button-benefits {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 16px;
   line-height: 16px;
   text-align: center;
@@ -226,15 +226,15 @@
 }
 
 .department-name {
-  font-family: 'Proxima Nova Bl';
+  font-family: 'Proxima Nova Bl', sans-serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.23619px;
-  color: #E7EAF0;
+  color: #e7eaf0;
 }
 
 .contacts-address {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: -0.5px;
@@ -243,7 +243,7 @@
 
 .contacts-tel,
 .contacts-email {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Proxima Nova Rg', sans-serif;
   font-size: 16px;
   line-height: 23px;
   letter-spacing: -0.5px;
@@ -322,7 +322,7 @@
     grid-column: 1 / 3;
     margin: 0;
     text-align: left;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -341,7 +341,7 @@
   .save-text,
   .share-text {
     grid-column: 1 / 3;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -363,7 +363,7 @@
   
   .when-posted-detailed {
     grid-column: 1 / 3;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -378,7 +378,7 @@
   .text-benefits, 
   .list-benefits {
     grid-column: 1 / 3;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     color: #3a4562;
     max-width: 721px;
     padding-right: 0;
@@ -414,7 +414,6 @@
     justify-content: flex-start;
     max-width: 500px;
   }
- 
 
   .button-bottom {
     grid-column: 1 / 2;
@@ -450,7 +449,7 @@
 
   .subtitle-addinfo {
     grid-column: 1 / 3;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
   }
 
   .box-contacts {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './Stars.css'
 
 export default function Stars (): JSX.Element {

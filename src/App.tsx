@@ -1,4 +1,3 @@
-import React from 'react'
 import JobList from './components/joblist/JobList'
 import Detailed from './components/detailed/Detailed'
 import { Routes, Route } from 'react-router-dom'
