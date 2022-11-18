@@ -1,0 +1,21 @@
+.star1,
+.star2,
+.star3,
+.star4,
+.star5 {
+  margin-right: 1px;
+  width: 10px;
+  height: 10px;
+}
+
+@media (min-width: 1024px) {
+  .star1,
+  .star2,
+  .star3,
+  .star4,
+  .star5 {
+    margin-right: 1px;
+    width: 19px;
+    height: 19px;
+  }
+}

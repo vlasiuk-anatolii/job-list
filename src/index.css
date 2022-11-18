@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Proxima Nova Lt';
+  src: url('/public/fonts/ProximaNova-Light.eot');
+  src: local('Proxima Nova Light Italic'), local('ProximaNova-LightIt'),
+    url('/public/fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('/public/fonts/ProximaNova-Light.woff') format('woff'),
+    url('/public/fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: url('/public/fonts/ProximaNova-Regular.eot');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+    url('/public/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/public/fonts/ProximaNova-Regular.woff') format('woff'),
+    url('/public/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Proxima Nova Bl';
+  src: url('/public/fonts/ProximaNova-Bold.eot');
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+    url('/public/fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/public/fonts/ProximaNova-Bold.woff') format('woff'),
+    url('/public/fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova BlLt';
+  src: url('/public/fonts/ProximaNova-Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+    url('/public/fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('/public/fonts/ProximaNova-Semibold.woff') format('woff'),
+    url('/public/fonts/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: #e6e9f2;
+}

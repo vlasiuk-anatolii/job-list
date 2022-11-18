@@ -1,0 +1,10 @@
+.notfound {
+  margin: 0 auto;
+}
+.notfound__title {
+  font-family: 'Proxima Nova Bl';
+  font-size: 24px;
+  color: red;
+  text-align: center;
+  margin-bottom: 40px;
+}

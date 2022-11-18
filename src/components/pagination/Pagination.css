@@ -1,0 +1,66 @@
+.pagination {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.pagination__buttons-dots {
+  transform: translateY(-25%);
+}
+
+.pagination__buttons-pages {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.pagination__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination__buttonarrow {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #b4bdc3;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagination__buttonarrow:hover {
+  cursor: pointer;
+  border: 1px solid #3a4562;
+}
+
+.pagination__buttonarrow--next {
+  background-image: url(../../../public/images/next-arrow.svg);
+}
+
+.pagination__buttonarrow--prev {
+  background-image: url(../../../public/images/arrow.svg);
+}
+
+.pagination__button {
+  font-family: 'Proxima Nova Rg', sans-serif;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  color: #3a4562;
+  background-color: #fff;
+  border: 1px solid #e2e6e9;
+}
+
+.pagination__button:hover {
+  cursor: pointer;
+  border: 1px solid #3a4562;
+}
+
+.pagination__button--selected {
+  background-color: #3a4562;
+  color: #fff;
+}
